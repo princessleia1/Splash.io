@@ -9,10 +9,31 @@
     <Grid x:Name="ContentArea" Margin="{StaticResource MediumLeftRightMargin}">
         <Grid
             Background="{ThemeResource SystemControlPageBackgroundChromeLowBrush}">
-            <!--
-                The SystemControlPageBackgroundChromeLowBrush background represents where you should place your content. 
-                Place your content here.
-            -->
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="3*"/>
+                    <ColumnDefinition Width="5*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="2*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <Border Background="#2f5cb6" HorizontalAlignment="Stretch" Margin="-19,0,0,0" VerticalAlignment="Stretch"/>
+                <Border Grid.Column ="1" Background="#1f3d7a" HorizontalAlignment="Stretch" Margin="0,0,-24,0" VerticalAlignment="Stretch"/>
+                <Border Grid.Row="1" Grid.ColumnSpan="2" Background="#152951" Margin="-19,0,-24,0"/>
+                <StackPanel Grid.Column="1" Margin="40,0,0,0" VerticalAlignment="Center">
+                    <TextBlock Foreground="White" FontSize="25" Text="Today - 34° C"/>
+                    <TextBlock Foreground="White" FontSize="25" Text="Partially Cloudy"/>
+                    <TextBlock Foreground="White" FontSize="25" Text="Precipitation: 25%"/>
+                </StackPanel>
+                <StackPanel Grid.Row="1" Grid.ColumnSpan="2" Orientation="Horizontal"
+                    HorizontalAlignment="Center" VerticalAlignment="Center">
+                    <TextBlock Foreground="White" FontSize="25" Text="High: 32°" Margin="0,0,0,0"/>
+                    <TextBlock Foreground="White" FontSize="25" Text="Low: 23°" Margin="0,0,0,0"/>
+                    <TextBlock Foreground="White" FontSize="25" Text="Feels like: 34°"/>
+                </StackPanel>
+                <Image Margin="-19,20,20,20" Source="logo.png" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
+            </Grid>
         </Grid>
     </Grid>
 </Page>
