@@ -1,4 +1,4 @@
-# Template-Splash
+# Splash.io
 
 A C#, XAML UI Template for a UWP (Universal Windows Platform) Application with extended features and capabilities.
 
@@ -48,7 +48,7 @@ A C#, XAML UI Template for a UWP (Universal Windows Platform) Application with e
 - [Visual Studio 2017](https://visualstudio.microsoft.com/downloads/)
 
 ## License
-Template-Splash is licensed under the terms of the [GPL-3.0 License](/LICENSE). 
+Splash.io is licensed under the terms of the [GPL-3.0 License](/LICENSE). 
 
 <p align="middle">
   <img width="80" height="80" src=icon.png>
