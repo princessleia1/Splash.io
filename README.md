@@ -22,7 +22,6 @@ A C#, XAML UI Template for a UWP (Universal Windows Platform) Application with e
 * Main Page
 * Blank Page
 * Content Grid
-* Camera
 * Settings
 
 ### Command Elements:
