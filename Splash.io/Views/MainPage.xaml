@@ -1,0 +1,40 @@
+﻿<Page
+    x:Class="Splash.io.Views.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Style="{StaticResource PageStyle}"
+    mc:Ignorable="d">
+    <Grid x:Name="ContentArea" Margin="{StaticResource MediumLeftRightMargin}">
+        <Grid
+            Background="{ThemeResource SystemControlPageBackgroundChromeLowBrush}">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="3*"/>
+                    <ColumnDefinition Width="5*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="2*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <Border Background="#2f5cb6" HorizontalAlignment="Stretch" Margin="-19,0,0,0" VerticalAlignment="Stretch"/>
+                <Border Grid.Column ="1" Background="#1f3d7a" HorizontalAlignment="Stretch" Margin="0,0,-24,0" VerticalAlignment="Stretch"/>
+                <Border Grid.Row="1" Grid.ColumnSpan="2" Background="#152951" Margin="-19,0,-24,0"/>
+                <PersonPicture ProfilePicture="https://docs.microsoft.com/windows/uwp/contacts-and-calendar/images/shoulder-tap-static-payload.png" RenderTransformOrigin="10.47,-1.58" Margin="10,10,434,525"  HorizontalAlignment="Stretch" VerticalAlignment="Stretch" />
+                <StackPanel Grid.Column="1" Margin="40,0,0,0" VerticalAlignment="Center">
+                    <TextBlock Foreground="White" FontSize="25" Text="Today: 34° C"/>
+                    <TextBlock Foreground="White" FontSize="25" Text="Partially Cloudy"/>
+                    <TextBlock Foreground="White" FontSize="25" Text="Precipitation: 25%"/>
+                </StackPanel>
+                <StackPanel Grid.Row="1" Grid.ColumnSpan="2" Orientation="Horizontal"
+                    HorizontalAlignment="Center" VerticalAlignment="Center">
+                    <TextBlock Foreground="White" FontSize="25" Text="High: 32°" Margin="0,0,0,0"/>
+                    <TextBlock Foreground="White" FontSize="25" Text="Low: 23°" Margin="0,0,0,0"/>
+                    <TextBlock Foreground="White" FontSize="25" Text="Feels like: 34°"/>
+                </StackPanel>
+                <Image Margin="45" Source="logo.png"/>
+            </Grid>
+        </Grid>
+    </Grid>
+</Page>
