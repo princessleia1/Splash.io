@@ -2,15 +2,8 @@
 
 A C#, XAML UI Template for a UWP (Universal Windows Platform) Application with extended features and capabilities.
 
-### Screenshots:
-<p align="left">
-  <img width="280" height="230" src=./Splash.io/Assets/Screenshots/WelcomeScreen-2.png>
-  <img width="280" height="230" src=./Splash.io/Assets/Screenshots/MainScreen.png>
-  <img width="280" height="230" src=./Splash.io/Assets/Screenshots/SettingsScreenDark-2.png>
-</p>
-
 ## Features
-* First Run Dialog (Welcome)
+* First Run Dialog
 * Whats New Dialog
 * Feedback Hub Link
 * Theme Selection
@@ -31,23 +24,28 @@ A C#, XAML UI Template for a UWP (Universal Windows Platform) Application with e
 * Content Grid
 * Settings
 
-### Adaptive Design:
+## Adaptive Design
 * Uses Fluent Design Principles
 * Responsive User Interface
 
-### Platform Development Stack:
+## Screenshots
+<p align="left">
+  <img width="280" height="230" src=./Splash.io/Assets/Screenshots/WelcomeScreen-2.png>
+  <img width="280" height="230" src=./Splash.io/Assets/Screenshots/MainScreen.png>
+  <img width="280" height="230" src=./Splash.io/Assets/Screenshots/SettingsScreenDark-2.png>
+</p>
+
+## Platform Development Stack
 * C#
 * UI XAML
 * Core Universal APIs
 * Core OS Windows 10
 
-### Environment:
+## Environment
 - Windows 10. Minimum: Windows 10, Version 1809 [10.0; Build 17763]
 - [Windows 10 SDK](https://developer.microsoft.com/windows/downloads/windows-10-sdk)
 - [.NET Core 2.0 SDK](https://www.microsoft.com/net/core)
 - [Visual Studio 2017](https://visualstudio.microsoft.com/downloads/)
-
-
 
 ## License
 Splash.io is licensed under the terms of the [GPL-3.0 License](/LICENSE). 
