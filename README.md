@@ -2,6 +2,13 @@
 
 A C#, XAML UI Template for a UWP (Universal Windows Platform) Application with extended features and capabilities.
 
+### Screenshots:
+<p align="left">
+  <img width="280" height="230" src=./Splash.io/Assets/Screenshots/WelcomeScreen-2.png>
+  <img width="280" height="230" src=./Splash.io/Assets/Screenshots/MainScreen.png>
+  <img width="280" height="230" src=./Splash.io/Assets/Screenshots/SettingsScreenDark-2.png>
+</p>
+
 ## Features
 * First Run Dialog (Welcome)
 * Whats New Dialog
@@ -40,12 +47,7 @@ A C#, XAML UI Template for a UWP (Universal Windows Platform) Application with e
 - [.NET Core 2.0 SDK](https://www.microsoft.com/net/core)
 - [Visual Studio 2017](https://visualstudio.microsoft.com/downloads/)
 
-### Screenshots:
-<p align="left">
-  <img width="275" height="230" src=./Splash.io/Assets/Screenshots/WelcomeScreen-2.png>
-  <img width="275" height="230" src=./Splash.io/Assets/Screenshots/MainScreen.png>
-  <img width="275" height="230" src=./Splash.io/Assets/Screenshots/SettingsScreenDark-2.png>
-</p>
+
 
 ## License
 Splash.io is licensed under the terms of the [GPL-3.0 License](/LICENSE). 
