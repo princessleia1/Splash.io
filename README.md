@@ -30,7 +30,6 @@ A C#, XAML UI Template for a UWP (Universal Windows Platform) Application with e
 
 ## Screenshots
 <p align="left">
-  <img width="280" height="230" src=./Splash.io/Assets/Screenshots/WelcomeScreen-Light.png>
   <img width="280" height="230" src=./Splash.io/Assets/Screenshots/MainScreen-Light.png>
   <img width="280" height="230" src=./Splash.io/Assets/Screenshots/SettingsScreen-Light.png>
 </p>
