@@ -50,5 +50,5 @@ A C#, XAML UI Template for a UWP (Universal Windows Platform) Application with e
 Splash.io is licensed under the terms of the [GPL-3.0 License](/LICENSE). 
 
 <p align="middle">
-  <img width="100" height="100" src=logo.png>
+  <img width="80" height="80" src=logo.png>
 </p>
